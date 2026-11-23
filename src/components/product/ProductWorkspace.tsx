@@ -18,7 +18,7 @@ function modeHeading(mode: ProductController['mode']): string {
 
 type EditorProps = {
     listing?: ListingRecord;
-    selected?: ProductController['products'][number];
+    selected?: ProductController['products'][number] | undefined;
     controller: ProductController;
 };
 
